@@ -1,5 +1,11 @@
 python calculate_metrics.py
 
+#For different images:
+python denoise.py --input <your_image>.png --output <output_name>.png --noise_level 15
+
+#For different noise levels:
+python denoise.py --input noisy.png --output denoised.png --noise_level <value>
+
 ## Training and testing codes for USRNet, DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, BSRGAN, SwinIR, VRT, RVRT
 
 [![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)
